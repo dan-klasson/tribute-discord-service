@@ -43,6 +43,7 @@ export const ENVIRONMENT_VARIABLE_KEYS = [
   'POSTGRES_DB',
   'POSTGRES_PASSWORD',
   'POSTGRES_USER',
+  'BOT_TOKEN',
 ] as const;
 
 /**

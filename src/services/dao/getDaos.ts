@@ -3,6 +3,7 @@ import {getEnv} from '../../helpers';
 
 export async function getDaos(): Promise<Daos | undefined> {
   const appEnv = getEnv('APP_ENV');
+  console.log('getDaos', appEnv);
 
   try {
     switch (appEnv) {
